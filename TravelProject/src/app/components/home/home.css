@@ -1,0 +1,79 @@
+.contenedor{
+    display: flex;
+    height: 90vh;
+    background-image: url('/assets/BackGroundU.png');
+    background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+.izquierda {
+    flex: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+        /* padding: 2rem; */
+    /* border-radius: 35px; */
+    background-color: rgba(0, 0, 0, 0.288);
+    backdrop-filter: blur(2px); 
+}
+
+.derecha {
+    flex: 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.btnOptions{
+    border: none;
+    background-color: #03484C ;
+    color: aliceblue;
+    margin: 3rem;
+    height: 50px;
+    width: 200px;
+    border-radius: 50px;
+    font-size: 18px;
+}
+
+
+/* Carrusel */
+
+.carrusel-container{
+    margin: auto;
+   padding-left: 3rem;
+   padding-right: 3rem;
+
+}
+
+.carrusel-image{
+    height: 70vh;
+}
+
+.carrusel-image{
+    /* width: 50%; */
+}
+
+.carrusel-controler{
+    position: absolute;
+    width: 45%;
+    top: 50%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%); 
+}
+
+.carrusel-controler button{
+    background: rgba(106, 13, 173, 0.7);
+    color: aliceblue;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background 0.3s;
+}
+
+.carrusel-controler button:hover{
+    background: rgba(201, 126, 14, 0.8);
+}

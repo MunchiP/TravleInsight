@@ -1,0 +1,21 @@
+.menu{
+    height: 80px;
+    background-color: #e1dbce;
+    animation: cambioColor 3s infinite alternate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+
+@keyframes cambioColor {
+        0% { color: #03484C; }
+    33% { color: #0f684b; }
+    66% { color: #3B8952; }
+    100% { color:  #1C232E ; }
+}
+/* 
+        0% { color: #03484C; }
+    33% { color: rgba(223, 196, 242, 0.7); }
+    66% { color: rgba(255, 242, 0, 0.8); }
+    100% { color:  rgb(166, 216, 245) ; } */

@@ -1,0 +1,24 @@
+.contenedor{
+    display: flex;
+    height: 90vh;
+    background-image: url('/assets/BackGroundU.png');
+    background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+.izquierda {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    background-color: rgba(0, 0, 0, 0.288);
+    backdrop-filter: blur(2px); 
+}
+
+.derecha {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
